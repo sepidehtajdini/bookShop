@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+* {
+    font-family: IRANSans;
+}
+
+:root {
+    --project-orange: #FF6901;
+    --project-lightgray: #F3F3F3;
+    --project-font-size: 14px;
+    --project-linear: linear-gradient(49.96deg, #FF6901 16.56%, #FF9C03 87.28%);
+}
+
+article {
+    line-height: 40px;
+    color: #3A3C3B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.cards {
+    max-width: 409px;
+    min-height: 199px;
+    border-radius: 18px;
+    border: 1px solid var(--project-lightgray);
+    box-shadow: 0px 0px 8px 0px #00000014;
+}
+
+.cards:hover,
+.cards h6:hover,
+.card:hover,
+.card h6:hover {
+    cursor: pointer;
+    color: var(--project-orange);
+}
+
+.section1 .cards {
+    background: url("./img/pattern.png") no-repeat bottom 0 left 0;
+}
+
+.section1-card-img {
+    width: 154px;
+    height: 154px;
+}
+
+.section1-sidebar-right {
+    min-width: 302px;
+    border: 1px solid var(--project-lightgray);
+}
+
+ul {
+    line-height: 2.5rem;
+}
+
+.section1-sidebar-right-head {
+    background: var(--project-linear)
+}
+
+.section1-sidebar-right-head img {
+    width: 37.5px;
+    height: 37.5px;
+}
+
+.section1-sidebar-left {
+    width: 141px;
+    border: 1px solid white;
+    background: linear-gradient(280deg, var(--project-orange) 16.56%, #FF9C03 87.28%);
+}
+
+li {
+    font-size: 14px;
+    list-style-image: url("./img/Ellipse.png");
+    color: #646363;
+}
+
+span.li {
+    width: 9.5px;
+    height: 9.5px;
+    background: var(--project-linear)
+}
+
+.before-sale {
+    color: #B6B6B6;
+    font-size: 11px;
+}
+
+#cart-btn {
+    border: 1px solid var(--project-orange);
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    background: url("./img/cart-edited.png") no-repeat center;
+}
+
+#cart-btn:hover {
+    background-color: #ffaf0173;
+    border: 2px outset var(--project-orange);
+    transform: translateY(2px);
+    transition: all 200ms;
+}
+
+div.circle {
+    width: 36px;
+    height: 36px;
+}
+
+.middle-circle {
+    background: url("./img/arrow.png") no-repeat 50%;
+    background-size: 88%;
+}
+
+.middle-circle:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 0 0 2px white;
+}
+
+.section2 {
+    background: linear-gradient(272deg, var(--project-orange) 16.56%, #FF9C03 87.28%);
+    margin-bottom: 80px;
+}
+
+.section2-top-icon,
+.section3-top-icon {
+    background: url("./img/Rectangle\ 209.png") no-repeat center;
+    width: 100px;
+    height: 100px;
+    size: 20%;
+    position: sticky;
+}
+
+.section2-top-icon {
+    margin-top: -99px;
+}
+
+.section3 :nth-child(3) {
+    color: #646363;
+}
+
+.section3-top-icon {
+    margin-top: -50px;
+}
+
+.section3 {
+    background-color: var(--project-lightgray);
+}
+.section3-card{
+    width: 409px;
+}
+a.btn {
+    background-color: var(--project-orange);
+    font-size: var(--project-font-size);
+}
+
+a.btn:hover {
+    outline: 2px solid var(--project-orange);
+    background-color: rgba(255, 166, 0, 0.822);
+    text-shadow: 1px 1px 1px orangered;
+}
+
+.section2-left-icon>span,
+.section2-right-icon>span {
+    width: 27px;
+    height: 27px;
+}
+
+.section2-right-icon>span {
+    background: url("./img/right-arrow.png");
+}
+
+.section2-left-icon>span {
+    background: url("./img/left-arrow.png");
+}
+
+.section2-right-icon>span:hover,
+.section2-left-icon>span:hover {
+    box-shadow: 0 0 1px 3px white;
+    outline: 1px solid white;
+    border-radius: 100%;
+}
+
+.section1-sidebar-right-head img:hover {
+    border: 2px solid #FF9C03;
+    outline: 2px solid white;
+    cursor: pointer;
+}
+
+.card-body {
+    font-size: var(--project-font-size);
+    color: #3A3C3B;
+}
+
+.section2-card {
+    width: 300px;
+    box-shadow: 0px 0px 9.55px 0px #00000014;
+}
+
+.section2-card-img,
+.section3-card-img {
+    background-color: #646363;
+    border: 0.88px solid var(--project-lightgray)
+}
+
+.section2-card-img {
+    width: 268px;
+    height: 268px;
+}
+
+.section3-card-img {
+    width: 140px;
+    height: 140px;
+}
+
+.pooshak {
+    background: url("./img/pic2.png") no-repeat center;
+}
+
+.jish {
+    background: url("./img/pic1.png") no-repeat center;
+    background-size: 110%;
+}
+
+div.section2-card h6 :nth-child(2) {
+    font-size: var(--project-font-size);
+}
+
+a.btn.text-white {
+    font-size: var(--project-font-size)
+}
+
+figure.section2-card .before-sale+span,
+figure.cards .before-sale+span {
+    background-color: var(--project-orange);
+    font-size: 10.8px;
+    padding: 3px 3px 0 3px;
+}
