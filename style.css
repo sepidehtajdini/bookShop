@@ -145,9 +145,11 @@ div.circle {
 .section3 {
     background-color: var(--project-lightgray);
 }
-.section3-card{
+
+.section3-card {
     width: 409px;
 }
+
 a.btn {
     background-color: var(--project-orange);
     font-size: var(--project-font-size);
@@ -234,4 +236,20 @@ figure.cards .before-sale+span {
     background-color: var(--project-orange);
     font-size: 10.8px;
     padding: 3px 3px 0 3px;
+}
+
+@media screen and (max-width:574px) {
+    .cards {
+        width: 220px;
+    }
+    .section1-card-img{
+        width: 80px;
+        height: 80px;
+    }
+    .section1-sidebar-right{
+        width: 290px;
+    }
+    .section1-sidebar-left{
+        width: 90px;
+    }
 }
